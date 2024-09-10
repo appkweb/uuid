@@ -1,0 +1,7 @@
+services:
+  php:
+    container_name: php
+    image: 944708720531.dkr.ecr.eu-west-3.amazonaws.com/php81:latest
+    volumes:
+      - ./:/var/www/html
+      - ~/.composer:/root/.composer
